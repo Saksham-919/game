@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    background-color: #29AB87;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 91vh;
+}
+
+.text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: max-content;
+    position: absolute;
+    top: 4.5rem;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.game-design {
+    width: 20rem;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+    top: 8rem;
+}
+
+p {
+    font-size: larger;
+    text-align: right;
+    padding: 0.8rem;
+}
+
+.box7 {
+    color: white;
+}
+
+.box1:hover {
+    background-color: #FFD700 ;
+}
+
+.box2:hover {
+    background-color: #00BFFF ;
+}
+
+.box3:hover {
+    background-color: #BF00FF ;
+}
+
+.box4:hover {
+    background-color: #FE5A1D ;
+}
+
+.box5:hover {
+    background-color: #29AB87 ;
+}
+
+.box6:hover {
+    background-color: #FF1DCE ;
+}
+
+.box7:hover {
+    background-color: #C51E3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: black;
+}
+
+.box8:hover {
+    background-color: #00FF7F ;
+}
+
+.box9:hover {
+    background-color: #06D001 ;
+}
+
+.animation {
+    background-color: #C51E3A ;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    bottom: 25rem;
+}
